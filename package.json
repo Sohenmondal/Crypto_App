@@ -11,12 +11,9 @@
     "zustand": "^4.4.1"
   }
  "homepage": "https://Sohenmondal.github.io/crypto_app/",
-  ...
   "scripts": {
-...
-"build": "vite build",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-...
-}
+  }
 }
