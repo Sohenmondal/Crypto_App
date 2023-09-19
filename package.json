@@ -10,4 +10,13 @@
     "sass": "^1.67.0",
     "zustand": "^4.4.1"
   }
+ "homepage": "https://Sohenmondal.github.io/crypto_app/",
+  ...
+  "scripts": {
+...
+"build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+...
+}
 }
